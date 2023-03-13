@@ -1,0 +1,19 @@
+
+package contador;
+
+
+public class Contador {
+
+
+    public static void main(String[] args) {  //Numero X que baje hasta 0
+        int Number = 5;
+        
+        while (Number > 0){
+            System.out.println(Number); //Imprime la variable
+            Number = Number - 1; // Le va restando un numero hasta que llegue a la variable definida por while
+                    
+        }           
+             
+    }
+    
+}
