@@ -1,0 +1,20 @@
+
+package contador;
+
+
+public class Contador {
+
+
+    public static void main(String[] args) {
+        
+        int N = 10; //La sumatoria de 10
+        int Contador = 0;
+        
+        while (N > 0) {
+            Contador = Contador + N;
+            N = N - 1;
+        
+        }
+        System.out.println("La sumatoria de 10 es "+Contador);
+    }
+    }
