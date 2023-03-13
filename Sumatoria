@@ -12,7 +12,7 @@ public class Contador {
         
         while (N > 0) { // Mientras que N sea mayor a 0
             Contador = Contador + N; // Contador suma a N
-            N = N - 1; // Y N va restandose 1 cada vez que se suma
+            N = N - 1; // Y N va restandose 1 cada vez que se suma a Contador
         
         }
         System.out.println("La sumatoria de 10 es "+Contador);
