@@ -1,0 +1,29 @@
+package ordenanumeros;
+
+import java.util.Scanner;
+
+public class OrdenaNumeros {
+
+    public static void main(String[] args) {
+        
+        Scanner Lectura = new Scanner(System.in);
+        
+        System.out.println("Ingrese el primer numero: ");
+        
+        int N1 = Lectura.nextInt();
+        
+        System.out.println("ingrese el segundo numero: ");
+        
+        int N2 = Lectura.nextInt();
+
+        if (N1 > N2){
+            System.out.println(N2 + " es menor que " + N1);
+            
+        } else {
+            System.out.println(N1 + " es menor que " + N2);
+        }
+        
+
+    }
+    
+}
