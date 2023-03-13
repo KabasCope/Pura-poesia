@@ -1,0 +1,28 @@
+
+package mayordeedad;
+
+import java.util.Scanner;
+
+public class MayorDeEdad {
+
+
+    public static void main(String[] args) {
+        
+        Scanner Lectura = new Scanner(System.in);
+        
+        System.out.print("Ingrese su edad:\n");
+        
+        int Edad = Lectura.nextInt();
+        
+        if (Edad >= 18){
+            
+            System.out.println("Voce eu mayor de eudad meu deus");
+          
+        } else { 
+            System.out.println("Voce eu minor de edad");
+        }       
+     
+  
+    }
+    
+}
