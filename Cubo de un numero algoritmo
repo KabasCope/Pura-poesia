@@ -1,0 +1,11 @@
+Algoritmo cubo
+	Escribir "Ingrese un numero para calcular su cubo"
+	Escribir "Ingrese [-1] para terminar la entrada de numeros"
+	Leer Num
+	Mientras Num <> -1
+		Escribir "El cubo del numero es ingresado es: " Num*Num*Num
+		Escribir "Ingrese [-1] para terminar"
+		Leer Num
+	FinMientras
+	
+FinAlgoritmo
