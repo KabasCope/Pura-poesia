@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el sueldo: ";
+	Leer Sueldo
+	Aumento = 0
+	Si Sueldo <= 1000 Entonces
+		Aumento = Sueldo*0.15
+		
+	SiNo
+		Aumento = Sueldo*0.12
+	FinSi
+	Sueldo = Aumento+Sueldo
+	Escribir "Su nuevo sueldo es: " Sueldo
+FinAlgoritmo
