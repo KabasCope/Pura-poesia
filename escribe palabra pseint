@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	
+	definir i como numero
+	definir Palabra Como Caracter
+	definir Letra Como Caracter
+	Escribir "Escriba una palabra: "
+	Leer Palabra //Lee la variable palabra que es lo que escribimos aqui
+	para i <- 1 Hasta Longitud(Palabra) con paso 1 Hacer // lee la longitud de la palabra para dejar un tope
+		Letra <- Subcadena(Palabra,i,i) //lo escribe de 1 en 1 
+		Escribir Letra
+	FinPara
+	
+FinAlgoritmo
