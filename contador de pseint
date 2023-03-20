@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	
+	Num = 2
+	
+	Mientras Num < 22
+		Escribir Num //Escribe el numero 2
+		Num = Num + 2 //Suma 2 al numero hasta que se cumpla el mientras
+	FinMientras
+
+FinAlgoritmo
