@@ -1,0 +1,12 @@
+Proceso sin_titulo
+	Definir Num, Cont Como Entero;
+	Leer Num;
+	Cont = Num;
+	Mientras Cont >= 1 Hacer
+		Si Num Mod Cont = 0 Entonces
+			Escribir Cont;
+		FinSi
+		Cont = Cont - 1;
+	FinMientras
+	Escribir Cont;
+FinProceso
