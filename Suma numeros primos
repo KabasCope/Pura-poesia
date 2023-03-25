@@ -1,0 +1,24 @@
+Proceso detarea
+	Definir suma,n,num,x,contador Como Entero;
+	Escribir 'Ingresa un numero';
+	Leer n;
+	num <- 0;
+	suma <- 0;
+	Mientras n>0 Hacer
+		num <- num+1;
+		x <- 1;
+		contador <- 0;
+		Mientras x<=num Hacer
+			Si num MOD x==0 Entonces
+				contador <- contador+1;
+			FinSi
+			x <- x+1;
+		FinMientras
+		Si contador==2 Entonces
+			Escribir 'El numero ',num,' es primo';
+			suma <- suma+num;
+			n <- n-1;
+		FinSi
+	FinMientras
+	Escribir 'La suma de los numeros primos es: ',suma;
+FinProceso
