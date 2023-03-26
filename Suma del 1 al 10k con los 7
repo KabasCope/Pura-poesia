@@ -1,0 +1,22 @@
+//Suma todos los numeros del 1 al 10k con los numeros que terminen en 7
+
+
+Algoritmo sumar2
+	
+	Definir C, J Como Entero;
+	
+	C<-0;
+	
+	Para j<-1 Hasta 10000 Con Paso 1 Hacer
+		
+		Si j MOD 10 = 7  Entonces
+			
+			C<- C + j;
+			
+		Fin Si
+		
+	Fin Para
+	
+	Escribir C;
+	
+FinAlgoritmo
