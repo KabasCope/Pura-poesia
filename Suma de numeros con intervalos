@@ -1,0 +1,21 @@
+
+//Sumar todos los números desde 1 a n= 10000, que sean incrementos de 3 a partir del 1.
+
+//Ejemplo para n = 10, se debe sumar los números 1, 4, 7, 10 dando un total de 22.
+
+
+Algoritmo sumar
+	
+	Definir C,J Como Entero;
+	
+	C<-0;
+	
+	Para j<-1 Hasta 10000 Con Paso 3 Hacer
+		
+		C <- C + j;
+		
+	Fin Para
+	
+	Escribir C;
+	
+FinAlgoritmo
