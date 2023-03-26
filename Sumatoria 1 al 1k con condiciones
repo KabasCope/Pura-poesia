@@ -1,0 +1,34 @@
+//Sumar los únicos 4 números que están entre 1 a n= 1000, y que cumplen estas 3 condiciones.
+
+//Terminan en 8 y cada uno es divisible por 3 y  divisible por 7.
+
+
+Algoritmo sumar2
+	
+	Definir C, J Como Entero;
+	
+	C<-0;
+	
+	Para j<-1 Hasta 1000 Con Paso 1 Hacer
+		
+		Si j MOD 10 = 8  Entonces
+			
+			Si j MOD 3 = 0  Entonces
+				
+				Si j MOD 7 = 0  Entonces
+					
+					Escribir J;
+					
+					C<-C+J;
+					
+				Fin Si
+				
+			Fin Si
+			
+		Fin Si
+		
+	Fin Para
+	
+	Escribir C;
+	
+FinAlgoritmo
